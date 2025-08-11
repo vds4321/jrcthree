@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="220" height="60">
+  <style>
+    .text { font: 800 32px Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; fill: #F5F7FA; }
+  </style>
+  <rect x="0" y="0" width="220" height="60" fill="#0B1220"/>
+  <text x="12" y="40" class="text">JRC</text>
+  <!-- three mint bars as superscript -->
+  <g transform="translate(122,6)" fill="#10B981">
+    <rect x="0" y="28" rx="4" width="10" height="24"/>
+    <rect x="16" y="18" rx="4" width="10" height="34"/>
+    <rect x="32" y="8"  rx="4" width="10" height="44"/>
+  </g>
+</svg>
