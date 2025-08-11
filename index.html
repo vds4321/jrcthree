@@ -56,18 +56,22 @@
       <div class="h-4"></div>
       
       <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight">
-        <!-- Top row: icon + title (same line, same height) -->
-        <span class="inline-flex items-baseline gap-3 whitespace-nowrap">
-          <img src="jrc_wordmark_dark.svg" alt="JRC cubed" class="h-[1em] w-auto" />
-        </span>
-        <!-- Middle row: title (Bigger height) -->
-        <span class="inline-flex items-baseline gap-3 whitespace-nowrap">
-          <span>On-Demand SDR</span>
+        <!-- Icon above title; icon width = title width -->
+        <span class="inline-grid grid-rows-[auto_auto] items-start w-fit leading-none">
+          <!-- Icon fills the container width (which is set by the title below) -->
+          <img
+            src="jrc_wordmark_dark.svg"
+            alt="JRC cubed"
+            class="w-full h-auto mb-2"
+            style="aspect-ratio: 1 / 1;"
+          />
+          <!-- Title defines the container width -->
+          <span class="whitespace-nowrap">On-Demand SDR</span>
         </span>
 
-        <!-- Second line: smaller, forced no-wrap (scales so it won't wrap on mobile) -->
+        <!-- Second line, left-aligned with the block above -->
         <span class="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-azure whitespace-nowrap mt-1">
-          Qualified Meetings in 14 Days.
+          Qualified Meetings in 14 Days
         </span>
       </h1>
       
